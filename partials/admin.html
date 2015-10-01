@@ -1,0 +1,68 @@
+<div class="container">
+
+  <p class="title">Please enter the information to search for the organization or user.</p>
+
+  <div class="col-md-5 text-right">
+  <p>Country
+    <select name="country" id="" class="form-control">
+      <option value="Brazil">Brazil</option>
+      <option value="China">China</option>
+      <option value="India">India</option>
+      <option value="USA">United States</option>
+    </select>
+  </p>
+
+  <p>Organization Name
+    <input type="text" class="form-control">
+  </p>
+
+  <p>Report Type
+    <select name="reportType" class="form-control">
+      <option value="partner">Partner</option>
+      <option value="customer">Customer</option>
+      <option value="salesTransactions">Sales Transactions</option>
+      <option value="projects">Projects</option>
+      <option value="bids">Bids</option>
+    </select>
+  </div>
+
+  <div class="col-md-5 col-md-offset-2 text-right">
+    <p>State/Province/Region
+      <select name="region" class="form-control">
+        <option value="AK">Alaska</option>
+        <option value="FL">Florida</option>
+        <option value="NC">North Carolina</option>
+        <option value="NY">New York</option>
+      </select>
+    </p>
+
+    <p>User Name/Email
+      <input type="text" class="form-control">
+    </p>
+
+    <div class="clearfix pull-right">
+      <div class="pull-left">
+        Date
+      </div>
+      <div class="pull-left">
+        <p>
+          <label for="from">From</label><br/>
+          <input type="text" class="form-control" id="from" name="from" size="8">
+        </p>
+      </div>
+
+      <div class="pull-left">
+        <p>
+          <label for="to">to</label><br/>
+          <input type="text" class="form-control" id="to" name="to" size="8">
+        </p>
+      </div>
+
+
+      <p>
+         <button class="btn btn-default btn-sm">Clear</button>
+         <button class="btn btn-primary btn-sm">Search</button>
+      </p>
+  </div>
+</div>
+</div>

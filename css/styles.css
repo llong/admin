@@ -1,0 +1,46 @@
+.form-label {
+  line-height: 40px;
+}
+
+.table th {
+  font-size: 14px;
+}
+
+hr {
+  margin-top: 10px;
+}
+
+.spacer { height: 50px;}
+
+.toggle-button {
+  background: #f2f2f2;
+  text-align: center;
+  border-top: 2px solid #464646;
+}
+
+.toggle-button:hover {
+  cursor: pointer;
+}
+
+.btn.btn-default {
+  background: #F2F2F2;
+  color: #464646;
+  border: 1px solid #E5E5E5;
+}
+
+.title { margin-top: 20px; }
+
+@media (min-width: 992px) {
+  .form-control {
+    display: inline-block;
+    width: auto;
+    height: 28px;
+    margin-left: 12px;
+  }
+}
+
+@media(max-width: 991px) {
+  .col-md-5.text-right {
+    text-align: left;
+  }
+}
