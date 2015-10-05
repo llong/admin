@@ -57,7 +57,7 @@
       <tbody>
       	<?php 
 
-      	for(i=0;i<=20;i++){
+      	for($i=0; $i <= 20; $i++){
         echo 
         	"<tr>
 		          <td>ASA3435-BUN-K9</td>
@@ -66,7 +66,7 @@
 		          <td>CON-SNT-A34BUNK9</td>
 		          <td>California</td>
 		          <td>SmartNet</td>
-	        </tr>"
+	        </tr>";
     	}
         ?>
       </tbody>
